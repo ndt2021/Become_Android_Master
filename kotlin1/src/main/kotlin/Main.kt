@@ -108,7 +108,10 @@ for (i in 'd'..'g') print (i)
     println(phanTuDauTien) // In ra màn hình: 1
 
 
+// new commit
 
+    println("commitw")
+    println("learn gitHUb")
 
 
 }
