@@ -7,3 +7,5 @@ https://github.com/ndt2021/Become_Android_Master/tree/931314864b6836e0cd7e3f15fc
 # bài 2: TipTime
 https://github.com/ndt2021/Become_Android_Master/tree/93a741dc635e8efd0e2da570f55c0807be36bcc3/TipTime
 TipTime
+# bài 3: Affirmations
+https://github.com/ndt2021/Become_Android_Master/tree/3a451c64f7b6edebc591cabb35fcdccdaabe95e1/Affirmations
