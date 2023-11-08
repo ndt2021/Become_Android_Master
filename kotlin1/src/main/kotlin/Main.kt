@@ -114,6 +114,10 @@ for (i in 'd'..'g') print (i)
     println("learn gitHUb")
 
 
+  //  val triple: (Int) -> Int = {a: Int -> a*3}
+    val triple: (Int) -> Int = { it * 3 }
+    println(triple(5))
+
 }
 // Kotlin focuses on clarity, conciseness, and code safety.
 // It has lambdas, coroutines, and properties, which allow you to write less code with fewer bugs.
