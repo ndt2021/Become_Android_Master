@@ -22,15 +22,14 @@ class ItemAdapter(private val context: Context, private val dataset: List<Affirm
         val textView: TextView = view.findViewById(R.id.item_title)
     }
 
-
 // tạo view mới
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemAdapter.ItemViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
             .inflate(R.layout.list_item, parent, false)
         return ItemViewHolder(adapterLayout)
     }
 // thay thế nội dung khung hình
-    override fun onBindViewHolder(holder: ItemAdapter.ItemViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = dataset[position]
         holder.textView.text = context.resources.getString(item.stringResourceId)
     }
